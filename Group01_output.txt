@@ -1,0 +1,202 @@
+                                                                          Question 1                                                                          
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
+ Q1: Find the manager(s) to whom the most number of employees report to. Print such managers’ id, name and the total number of employees that report to them.
+(1 row)
+
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+ manager_id | manager_name  | num_reports 
+------------+---------------+-------------
+          2 | Nancy Edwards |           3
+(1 row)
+
+                                                                   Question 2                                                                   
+------------------------------------------------------------------------------------------------------------------------------------------------
+ Q2: Find the customer(s) who have purchased the maximum number of tracks. Print their id, name and total number of tracks they have purchased.
+(1 row)
+
+ customer_id |        customer_name        | num_tracks 
+-------------+-----------------------------+------------
+          29 | Robert Brown                |         38
+          54 | Steve Murray                |         38
+           4 | BjÃƒÂ¸rn Hansen             |         38
+          34 | JoÃƒÂ£o Fernandes           |         38
+          51 | Joakim Johansson            |         38
+          52 | Emma Jones                  |         38
+          10 | Eduardo Martins             |         38
+          35 | Madalena Sampaio            |         38
+          45 | Ladislav KovÃƒÂ¡cs          |         38
+           6 | Helena HolÃƒÂ½              |         38
+          39 | Camille Bernard             |         38
+          36 | Hannah Schneider            |         38
+          31 | Martha Silk                 |         38
+          50 | Enrique MuÃƒÂ±oz            |         38
+          14 | Mark Philips                |         38
+          22 | Heather Leacock             |         38
+          13 | Fernanda Ramos              |         38
+           2 | Leonie KÃƒÂ¶hler            |         38
+          16 | Frank Harris                |         38
+          11 | Alexandre Rocha             |         38
+          44 | Terhi HÃƒÂ¤mÃƒÂ¤lÃƒÂ¤inen   |         38
+          42 | Wyatt Girard                |         38
+          41 | Marc Dubois                 |         38
+          46 | Hugh O'Reilly               |         38
+          40 | Dominique Lefebvre          |         38
+          43 | Isabelle Mercier            |         38
+          32 | Aaron Mitchell              |         38
+          53 | Phil Hughes                 |         38
+           7 | Astrid Gruber               |         38
+           9 | Kara Nielsen                |         38
+          38 | Niklas SchrÃƒÂ¶der          |         38
+          15 | Jennifer Peterson           |         38
+          26 | Richard Cunningham          |         38
+          12 | Roberto Almeida             |         38
+          48 | Johannes Van der Berg       |         38
+          24 | Frank Ralston               |         38
+          57 | Luis Rojas                  |         38
+          19 | Tim Goyer                   |         38
+          25 | Victor Stevens              |         38
+          30 | Edward Francis              |         38
+          21 | Kathy Chase                 |         38
+          49 | StanisÃ…â€šaw WÃƒÂ³jcik     |         38
+          47 | Lucas Mancini               |         38
+           3 | FranÃƒÂ§ois Tremblay        |         38
+          17 | Jack Smith                  |         38
+          20 | Dan Miller                  |         38
+          28 | Julia Barnett               |         38
+          37 | Fynn Zimmermann             |         38
+          33 | Ellie Sullivan              |         38
+           1 | LuÃƒÂ­s GonÃƒÂ§alves         |         38
+           5 | FrantiÃ…Â¡ek WichterlovÃƒÂ¡ |         38
+          18 | Michelle Brooks             |         38
+          55 | Mark Taylor                 |         38
+          27 | Patrick Gray                |         38
+          23 | John Gordon                 |         38
+          56 | Diego GutiÃƒÂ©rrez          |         38
+          58 | Manoj Pareek                |         38
+           8 | Daan Peeters                |         38
+(58 rows)
+
+                                                  Question 3                                                   
+---------------------------------------------------------------------------------------------------------------
+ Q3: Find countries that have the highest average invoice total. Print country name and average invoice total.
+(1 row)
+
+DROP VIEW
+CREATE VIEW
+ country | average_invoice_total 
+---------+-----------------------
+ Chile   |    6.6600000000000000
+(1 row)
+
+                                                   Question 4                                                   
+----------------------------------------------------------------------------------------------------------------
+ Q4: Find the total sales per genre. Print the genre and total sales in descending order of total sales values.
+(1 row)
+
+       genre        | total_sales 
+--------------------+-------------
+ Rock               |     7720.02
+ Latin              |     3472.55
+ Metal              |     2093.13
+ Alternative & Punk |     1961.66
+ TV Shows           |      817.71
+ Jazz               |      746.46
+ Drama              |      544.61
+ Blues              |      429.66
+ R&B/Soul           |      338.62
+ Reggae             |      332.64
+ Classical          |      317.04
+ Soundtrack         |      242.55
+ Pop                |      239.75
+ Alternative        |      211.17
+ Sci Fi & Fantasy   |      198.87
+ World              |      182.18
+ Hip Hop/Rap        |      166.41
+ Heavy Metal        |      161.37
+ Electronica/Dance  |      149.62
+ Easy Listening     |      138.60
+ Comedy             |      112.30
+ Science Fiction    |      102.41
+ Bossa Nova         |       86.13
+ Rock And Roll      |       83.16
+(24 rows)
+
+                                           Question 5                                            
+-------------------------------------------------------------------------------------------------
+ Q5: Find the genre that has the max number of tracks. Print the genre and the number of tracks.
+(1 row)
+
+DROP VIEW
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+ genre | max_num_of_tracks 
+-------+-------------------
+ Rock  |              1297
+(1 row)
+
+                                                                   Question 6                                                                    
+-------------------------------------------------------------------------------------------------------------------------------------------------
+ Q6: Find the top-3 genres that are purchased most by customers from ‘USA’. Print the genres and count of tracks purchased for the top-3 genres.
+(1 row)
+
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+ genre | num_tracks 
+-------+------------
+ Rock  |        157
+ Latin |         91
+ Metal |         64
+(3 rows)
+
+                                      Question 7                                      
+--------------------------------------------------------------------------------------
+ Q7: Find the count of customers who never bought tracks from the most popular genre.
+(1 row)
+
+DROP VIEW
+DROP VIEW
+CREATE VIEW
+CREATE VIEW
+CREATE VIEW
+ count 
+-------
+(0 rows)
+
+                           Question 8                            
+-----------------------------------------------------------------
+ Q8: Find the count of tracks that are in more than 5 playlists.
+(1 row)
+
+ count_of_tracks 
+-----------------
+(0 rows)
+
+                                                     Question 9                                                     
+--------------------------------------------------------------------------------------------------------------------
+ Q9: Find the number of tracks that appear in at least one playlist but were purchased fewer than 5 times in total.
+(1 row)
+
+ count_of_tracks 
+-----------------
+            3503
+(1 row)
+
+                              Question 10                               
+------------------------------------------------------------------------
+ Q10: Find the count of customers who bought every genre at least once.
+(1 row)
+
+DROP VIEW
+CREATE VIEW
+ count 
+-------
+     0
+(1 row)
+
