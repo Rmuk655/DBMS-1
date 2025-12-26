@@ -1,125 +1,108 @@
-# Computer Architecture Project  
-## Speeding Up Integer Programs with FPUs
+# DBMS Assignment – Chinook Database
 
-This repository contains the **course project** for the Computer Architecture course, based on the project proposal titled **“Speeding Up Integer Programs with FPUs”**.
-
-The project explores how **Floating Point Units (FPUs)** can be leveraged to accelerate programs that are traditionally written using **integer-only operations**, and analyzes the architectural and performance implications of such an approach.
+This repository contains the **DBMS-1 assignment** based on the **Chinook database**, to be completed according to the instructions provided by the course.
 
 ---
 
-## 📘 Project Overview
+## 📌 Assignment Details
 
-Modern processors contain powerful **Floating Point Units (FPUs)** designed for high-throughput numerical computation.  
-This project investigates whether and how FPUs can be used to:
-
-- Speed up integer-heavy programs
-- Reduce execution time using architectural parallelism
-- Explore alternative instruction usage beyond conventional integer pipelines
-
-The work is inspired by architectural research and focuses on **performance analysis and implementation insights**.
+- **Total Marks**: 100 (10 × 10)
+- **Due Date**: **5th October, 2025**
+- **Late Submission**: ❌ No submission allowed after the deadline
 
 ---
 
-## 🎯 Objectives
+## 👥 Group Instructions
 
-The primary objectives of this project are:
-
-- Understand the role of FPUs in modern processors
-- Analyze integer program behavior on conventional pipelines
-- Explore the feasibility of mapping integer operations onto FPUs
-- Compare performance between integer execution and FPU-assisted execution
-- Study trade-offs in terms of complexity, correctness, and efficiency
+- This assignment must be completed in **groups of two**.
+- **Copying or sharing** code or reports with other groups is strictly prohibited.
+- If copying is detected, **all parties involved will receive either an FR grade or zero marks**.
+- **Use of AI tools or LLMs is NOT allowed** for this assignment.
+- Students are expected to write **their own SQL queries and reports**.
 
 ---
 
-## 🧠 Core Concepts Involved
+## 🗄️ Database Used
 
-- CPU microarchitecture
-- Integer vs floating-point execution units
-- Instruction-level parallelism (ILP)
-- Performance optimization techniques
-- Program analysis and benchmarking
+- **Database**: Chinook
+- **DBMS**: PostgreSQL
 
----
-
-## 🧪 Experimental Setup
-
-The project involves:
-
-- Implementing representative **integer programs**
-- Modifying or re-implementing them to utilize **floating-point operations**
-- Measuring and comparing:
-  - Execution time
-  - Instruction counts
-  - Performance characteristics
-
-Benchmarks and test programs are chosen to clearly demonstrate the effects of FPU usage.
+### Setup
+1. Download `Chinook_PostgreSql.sql`.
+2. Follow the **“Getting Started”** section provided with the database to load it into PostgreSQL.
+3. Refer to the Chinook **schema** while writing queries.
 
 ---
 
-## 📂 Repository Structure
+## 📤 Submission Instructions
 
-```
-.
-├── CARCH_PROJECT.pdf            # Original project problem statement
-├── src/                         # Source code and experiments
-│   ├── integer_version/         # Baseline integer-only implementations
-│   ├── fpu_version/             # FPU-assisted implementations
-│   └── benchmarks/              # Test inputs and benchmark programs
-├── results/                     # Performance results and analysis
-├── report/                      # Final report and documentation
-└── README.md                    # This file
-```
+You need to submit **exactly two files**:
 
-*(Folder names may vary depending on implementation.)*
+1. **`GroupXY_query.sql`**  
+   - Contains SQL queries for **all exercises**  
+   - Replace `XY` with your **group number**
 
----
+2. **`GroupXY_report.pdf`**  
+   - Contains:
+     - All SQL queries  
+     - Corresponding outputs  
 
-## ⚙️ Compilation & Execution
-
-Programs are implemented in **C/C++**.
-
-Compile using:
-
-```bash
-gcc program.c -o program
-./program
-```
-
-or
-
-```bash
-g++ program.cpp -o program
-./program
-```
-
-Specific build instructions (if any) are provided inside the respective folders.
+📌 Upload both files **directly to Google Classroom**  
+❌ **Do NOT zip** the files
 
 ---
 
-## 📊 Evaluation & Analysis
+## 🧪 Exercises
 
-The evaluation focuses on:
+Write SQL queries for the following using the Chinook database:
 
-- Performance improvement gained using FPUs
-- Accuracy and correctness of computation
-- Overheads introduced by floating-point conversions
-- Architectural insights from experimental results
+1. Find the manager(s) to whom the **maximum number of employees** report.  
+   Print manager **ID, name, and total number of employees** reporting.
 
-Results are documented in the `results/` and `report/` directories.
+2. Find the customer(s) who have purchased the **maximum number of tracks**.  
+   Print customer **ID, name, and total number of tracks purchased**.
+
+3. Find the **country/countries** with the **highest average invoice total**.  
+   Print **country name and average invoice total**.
+
+4. Find the **total sales per genre**.  
+   Print **genre and total sales**, sorted in **descending order of revenue**.
+
+5. Find the **genre with the maximum number of tracks**.  
+   Print **genre name and track count**.
+
+6. Find the **top 3 genres** purchased most by customers from **USA**.  
+   Print **genre name and count of tracks purchased**.
+
+7. Find the **count of customers who never bought tracks** from the **most popular genre**.
+
+8. Find the **count of tracks** that appear in **more than 5 playlists**.
+
+9. Find the **number of tracks** that:
+   - Appear in **at least one playlist**, and
+   - Were purchased **fewer than 5 times** in total.
+
+10. Find the **count of customers who bought every genre at least once**.
 
 ---
 
-## ⚠️ Academic Integrity
+## 📝 Notes
 
-This project is part of academic coursework.
-
-- All work is original
-- External references are properly cited
-- Collaboration policies follow course guidelines
+- Ensure all queries are **correct and well-structured**.
+- Use appropriate **joins, subqueries, grouping, and aggregation**.
+- Test queries on PostgreSQL before final submission.
+- Clearly label outputs in the PDF report.
 
 ---
 
-## 📌 Acknowledgements
+## ✅ Pre‑Submission Checklist
 
-This project was carried out as part of the **Computer Architecture** course, inspired by academic research on processor microarchitecture and performance optimization.
+- [ ] All 10 queries implemented
+- [ ] Queries tested on PostgreSQL
+- [ ] Outputs included in PDF report
+- [ ] Correct file naming (`GroupXY_query.sql`, `GroupXY_report.pdf`)
+- [ ] Uploaded before **5th October 2025**
+
+---
+
+**Follow academic integrity rules strictly.**
