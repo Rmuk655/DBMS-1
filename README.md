@@ -9,29 +9,6 @@ This repository contains the **DBMS-1 assignment** based on the **Chinook databa
 - **Database**: Chinook
 - **DBMS**: PostgreSQL
 
-### Setup
-1. Download `Chinook_PostgreSql.sql`.
-2. Follow the **“Getting Started”** section provided with the database to load it into PostgreSQL.
-3. Refer to the Chinook **schema** while writing queries.
-
----
-
-## 📤 Submission Instructions
-
-You need to submit **exactly two files**:
-
-1. **`GroupXY_query.sql`**  
-   - Contains SQL queries for **all exercises**  
-   - Replace `XY` with your **group number**
-
-2. **`GroupXY_report.pdf`**  
-   - Contains:
-     - All SQL queries  
-     - Corresponding outputs  
-
-📌 Upload both files **directly to Google Classroom**  
-❌ **Do NOT zip** the files
-
 ---
 
 ## 🧪 Exercises
@@ -70,18 +47,9 @@ Write SQL queries for the following using the Chinook database:
 
 ## 📝 Notes
 
-- Ensure all queries are **correct and well-structured**.
-- Use appropriate **joins, subqueries, grouping, and aggregation**.
+- Queries are **correct and well-structured**.
+- Uses appropriate **joins, subqueries, grouping, and aggregation**.
 - Test queries on PostgreSQL before final submission.
-- Clearly label outputs in the PDF report.
-
----
-
-## ✅ Pre‑Submission Checklist
-
-- [ ] All 10 queries implemented
-- [ ] Queries tested on PostgreSQL
-- [ ] Outputs included in PDF report
-- [ ] Correct file naming (`GroupXY_query.sql`, `GroupXY_report.pdf`)
+- Clearly labeled outputs are present in the PDF report.
 
 ---
