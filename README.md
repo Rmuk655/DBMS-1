@@ -4,24 +4,6 @@ This repository contains the **DBMS-1 assignment** based on the **Chinook databa
 
 ---
 
-## 📌 Assignment Details
-
-- **Total Marks**: 100 (10 × 10)
-- **Due Date**: **5th October, 2025**
-- **Late Submission**: ❌ No submission allowed after the deadline
-
----
-
-## 👥 Group Instructions
-
-- This assignment must be completed in **groups of two**.
-- **Copying or sharing** code or reports with other groups is strictly prohibited.
-- If copying is detected, **all parties involved will receive either an FR grade or zero marks**.
-- **Use of AI tools or LLMs is NOT allowed** for this assignment.
-- Students are expected to write **their own SQL queries and reports**.
-
----
-
 ## 🗄️ Database Used
 
 - **Database**: Chinook
@@ -101,8 +83,5 @@ Write SQL queries for the following using the Chinook database:
 - [ ] Queries tested on PostgreSQL
 - [ ] Outputs included in PDF report
 - [ ] Correct file naming (`GroupXY_query.sql`, `GroupXY_report.pdf`)
-- [ ] Uploaded before **5th October 2025**
 
 ---
-
-**Follow academic integrity rules strictly.**
